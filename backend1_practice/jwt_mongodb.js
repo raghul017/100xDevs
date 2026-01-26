@@ -85,7 +85,7 @@ const app = express();
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://arraghul6_db_user:I0Jrzg5hTxS19ULX@cluster0.641flbg.mongodb.net/userappnew",
+
 );
 
 const User = mongoose.model("Users", {
